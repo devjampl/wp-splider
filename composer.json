@@ -1,0 +1,21 @@
+{
+  "name": "devjampl/wp-splider",
+  "description": "Implementation of SplideJS as a Wordpress CPT with ACF PRO",
+  "type": "package",
+  "minimum-stability": "dev",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Kamil Ryczek",
+      "email": "kamil@piszekod.pl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Devjam\\": "src/Devjam/"
+    }
+  }
+}
